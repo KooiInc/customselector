@@ -1,0 +1,31 @@
+body {
+    font:   0.8em verdana, arial;
+    margin: 1em;
+    position: absolute;
+    top: 1em; right:0; left:1em; bottom:0;
+}
+.replacer
+{
+    border: 1px dotted #999;
+    padding:0 3px;
+    cursor: pointer;
+    cursor: hand;
+    display:block;
+    color: #777;
+}
+option {
+    cursor: pointer;
+    min-height: 1em;
+}
+
+option[selected] {color:green}
+
+select {
+    display:block;
+    overflow:hidden;
+}
+
+#debug {
+    position:absolute;
+    bottom:0;
+}
