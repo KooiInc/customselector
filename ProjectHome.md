@@ -1,0 +1,1 @@
+Transform select control to enable filtering by typing
